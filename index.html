@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="enviar.php">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
     <title>Biodiseño1.com</title>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
   </head>
   <body>
     <!--encabezado-->
@@ -99,7 +103,7 @@
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next" >
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
@@ -107,6 +111,7 @@
 </main>
 <!--presentación-->
 <!--Avance-semanal-->
+
 <section id="semanal">
 <div class="container-fluid">
   <div class="row" id="menusemanal">
@@ -114,14 +119,15 @@
    <h1 class="text-center">Avance Semanal</h1>
    <div class=" container text-center">
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 container_foto ">
-         <div class="ver_mas text-center">
-            <span  class="lnr lnr-eye"><a href="#https://iris.paho.org/bitstream/handle/10665.2/52104/OPSNMHMHCOVID-19200010_spa.pdf?sequence=5&isAllowed=y">ver mas...</a></span>
+         <div class="ver_mas text-center" id="semanasssss">
+            <span  class="lnr lnr-eye">Ver mas...</span>
          </div>
          <article class="text-left">
             <h2>Semana 1<br></h2>
             <h4>Descripción del problema</h4>
+
          </article>
-         <img src="https://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
+         <img src="Imagenes/logo1.png" alt="">
       </div>
    </div>
 </div>
@@ -135,31 +141,74 @@
 <section id="proyecto">
   <div class="container-fluid  ">
     <div class="row" id="targeta">
-      <div class="col-lg-5 offset-1 col-sm-11">
-        <h3 class="text-center"><u>Avanze semanal</u></h3>
+      <div class="col-lg-5 offset-1 col-sm-11" id="imagenessemana1">
+        <h3 class="text-center"><u id="semanatitulo">Semana1</u></h3>
         <img src="Imagenes/reloj.png" alt="">
+        <button type="button" class="btn btn-warning btn-lg btn-block mb-2" id="botonparticipar">Regresar a avanze semanal</button>
+      </div>
+      <div class="col-lg-5 offset-1 col-sm-11" id="info">
+<p>La pandemia de la COVID-19 causada por la infección del virus SARS CoV-2 colocó en una
+situación de sobrecargo grave al sistema sanitario peruano y al mundo entero, cuyas cifras
+muestran que 1 de cada 4 personas contraen la enfermedad; hasta la fecha se han
+detectado 27.9M de casos positivos a nivel mundial siendo 905 mil la cifra oficial de
+fallecidos[1].</p>
+        <p>
+
+Los pacientes recuperados exitosamente de COVID-19 necesitarán apoyo para poder
+rehabilitarse ya que estas personas no solo enfrentan problemas físicos sino también
+atraviesan daños psicosociales y cognitivos.[1]se estima que entre un 21% - 96% de los
+pacientes que han sufrido de enfermedad pulmonar obstructiva desarrollan ansiedad[5].</p>
 
       </div>
       <div class="col-lg-5 offset-1 col-sm-11" id="info">
+    <p>Actualmente, existen 702 776 casos positivos en el Perú según los datos del Ministerio de
+Salud (MINSA), siendo 303 661 infectados en Lima y más de 30 236 muertes confirmadas
+[3]. Según una comparación de muertes por coronavirus en 189 países en relación con su
+población, Perú tuvo la mayor cantidad de pérdidas por COVID-19 hasta el 10 de
+septiembre de 2020.</p>
+        <p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magn,Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <button type="button" class="btn btn-warning btn-lg btn-block mb-2" id="botonparticipar">Semana1-Ver más</button>
+          EEn la investigación realizada por el Centro Nacional de Epidemiología, Prevención y Control
+de Enfermedades (CDC) y el Instituto Nacional de Salud (INS), se evidenció que 2 700 707
+peruanos estarían contagiadas de Covid-19, siendo el 25.3% de la población de Lima y
+Callao [4].</p>
       </div>
+      <div class="col-lg-5 offset-1 col-sm-11 mt-5 " id="imagenessemana1">
+        <img src="Imagenes/reloj2.png" alt="">
+      </div>
+
+    <div class="col-12" id="info">
+  <p>Los pacientes recuperados exitosamente de COVID-19 necesitarán apoyo para poder
+rehabilitarse ya que estas personas no solo enfrentan problemas físicos sino también
+atraviesan daños psicosociales y cognitivos; [1]se estima que entre un 21% - 96% de los
+pacientes que han sufrido de enfermedad pulmonar obstructiva desarrollan ansiedad[5].
+Asimismo, se realizaron estudios después de dos meses del alta de los pacientes, los
+cuales indicaron que dentro de una muestra de 143 personas, el 87,4% reportaba al menos
+un síntoma persistente (fatiga y disnea principalmente); además de observar un
+empeoramiento de la calidad de vida en el 44,1% de los pacientes. Sin embargo, no todos
+los que llegaron a cuidados intensivos presentaron estas secuelas: en el estudio se resalta
+que solo el 12.6% estuvieron hospitalizados en UCI [6]. Es decir, sufren consecuencias
+luego de abandonar el centro médico, especialmente aquellos que pertenecieron a UCI. Por
+esta razón, se busca favorecer al paciente de manera integral a través de la rehabilitación
+para que permanezcan activamente involucrados en su propia atención médica y sobretodo,
+menos dependientes de su entorno y de los profesionales de salud [7].</p>
+<p>En el Perú, existen muchos servicios y centros de rehabilitación respiratoria para pacientes
+post - COVID, uno de ellos es el Servicio de Medicina Física y Rehabilitación del Hospital
+Dos de Mayo, el cual ofrece terapias de rehabilitación respiratoria con el objetivo de
+preservar y mejorar la función cardiorrespiratoria; así como, reducir la sintomatología
+asociada mejorando la capacidad funcional del paciente.</p>
     </div>
+    <div class="col-12" id="info2">
+      <h3 class="text-center"><u id="semanatitulo">Arbol de causas y efectos</u></h3>
+<img src="Imagenes/arbol.png" alt="" id="arbolcausaefecto">
+<button type="button" class="btn btn-warning btn-lg btn-block mb-2" id="botonparticipar2">Regresar a avanze semanal</button>
+  </div></div>
     <!--proyecto-->
     <!--Publicaciones-->
     <div class="row mt-4" >
       <h3><u>Entregables</u></h3>
       <div class="col-10 offset-2" id="public1">
-        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate eget felis vel bibendum. Integer dolor sem, vulputate a purus semper, vestibulum tristique velit. Nullam ac laoreet sapien. Nulla dictum nunc ac nisl tempus bibendum sed id lorem. Cras eleifend ullamcorper magna, sit amet volutpat diam finibus luctus. Vestibulum venenatis sapien orci, in luctus ipsum viverra id. Aenean viverra dolor quis odio ultricies pharetra. Integer feugiat pulvinar convallis. Sed vehicula, justo vel dapibus semper, ipsum nisi ultrices neque, at efficitur nulla nisl eget nibh. Phasellus sodales vulputate ullamcorper. Ut molestie leo sit amet velit tempus euismod. Vestibulum finibus enim vitae tortor bibendum, at maximus orci elementum.
-
-Nullam bibendum vitae lacus et venenatis. Proin in auctor nunc. Donec sagittis accumsan felis, quis efficitur mi tempus nec. Vestibulum a iaculis lectus. Maecenas euismod lectus velit, nec varius est lobortis a. Quisque vitae ipsum fringilla, mattis leo vitae, feugiat est. Donec scelerisque mattis nisl ac dignissim. Nunc dictum libero in ex commodo, ac imperdiet est imperdiet. Phasellus pellentesque mattis quam, eget iaculis ligula rutrum a. Duis consequat aliquam porta. Donec id nisi imperdiet, accumsan quam quis, tincidunt sapien. Nunc dictum lacus at lacus auctor, non pretium lacus facilisis.
-
-Fusce imperdiet ultrices vehicula. Suspendisse posuere arcu in ex faucibus dapibus. Donec non hendrerit eros. Nunc euismod quam et urna rutrum, a vestibulum sapien blandit. Sed viverra molestie risus a eleifend. Suspendisse tincidunt porta mi in interdum. Etiam ultricies quam diam, at interdum neque eleifend et. Etiam pulvinar ullamcorper iaculis. Pellentesque ullamcorper nibh libero, vitae pharetra metus gravida at. Sed ac diam sit amet elit mollis dictum sed vel lorem. Nam quis ipsum condimentum, iaculis neque eu, auctor odio. Nulla facilisi. Vivamus ultrices erat commodo nisi volutpat, id ornare turpis gravida. Aliquam in ultrices urna, quis sollicitudin enim. Integer eget arcu aliquam est rutrum facilisis eu non eros. Aenean lorem sem, dignissim posuere tempor non, egestas id justo.
-
-Sed suscipit vel purus ut placerat. Vestibulum diam justo, luctus eu leo vitae, malesuada placerat sapien. Nulla vitae lectus id mi varius aliquet sed aliquam urna. Morbi erat felis, vehicula et magna vehicula, facilisis efficitur risus. Vivamus vehicula nec augue eu sagittis. Nunc vel interdum lorem. Quisque ac pharetra lacus.
-
-In ornare orci tortor, ut viverra nulla vulputate et. Aenean tristique mi a mi pretium, et viverra metus accumsan. Aenean eu tellus cursus, tempor mi in, suscipit velit. Donec egestas lorem neque, vulputate feugiat lorem porttitor eu. Fusce justo est, malesuada quis elementum ac, finibus non ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In placerat ipsum tellus, et fermentum nunc ultrices ac. Donec gravida mi eu mauris malesuada, sed mattis lacus consectetur.</p>
+        <p >Se esta trabajando en esta sección ... Proximamente</p>
   <div id="Nosotrosa" class="mb-4" >
       <p>"  "</p>
   </div>

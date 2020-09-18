@@ -177,11 +177,17 @@ body::-webkit-scrollbar-thumb{
   border: solid black;
   border-width: 1px;
   border-color: rgb(21,117,124);
+
 }
+#semanatitulo{color: white;}
 #targeta{
+  display: none;
   box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
   padding: 2%;
+  background-color: rgba(169,3,41,1);
+  background-blend-mode: darken;
 }
+
 #proyecto img{
   max-height: 100%;
 border-radius: 4px;
@@ -193,8 +199,29 @@ box-shadow: 0px 3.5px 9px 0px rgba(0, 0, 0, 0.5);
   border-radius: 6px;
   box-shadow: 0px 7px 16px 0px rgba(0, 0, 0, 0.5);
   text-align: justify;
-  margin-top: 10%;
+  margin-top: 5%;
   padding-top: 2.7%;
+}
+#imagenessemana1 img{
+  margin-top: 5%;
+  height:50vh;
+  width: 80vh;
+}
+#arbolcausaefecto{
+  margin-top: 3%;
+  margin-left: 14%;
+  margin-bottom: 3%;
+  filter: contrast(120%);
+}
+#info2{
+  background-color: rgba(46,46,46,1);
+  border-radius: 6px;
+  box-shadow: 0px 7px 16px 0px rgba(0, 0, 0, 0.5);
+  text-align: justify;
+  margin-top: 5%;
+  padding-top: 2.7%;
+  align-items: center;
+  opacity: 0.95
 }
 /*Proyectos*/
 /*Publicaciones*/
@@ -208,6 +235,7 @@ box-shadow: 0px 3.5px 9px 0px rgba(0, 0, 0, 0.5);
 text-align:center;
 background-color: rgb(238,233,239);
 border-radius: 2px;
+
 }
 #imagenmision{
   max-width: 100%;
@@ -269,4 +297,7 @@ ul, ol {
 }
 #footercontact{
   text-align: center;
+}
+#holis{
+display: none;
 }
