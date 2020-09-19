@@ -40,10 +40,10 @@ body::-webkit-scrollbar-thumb{
   max-height: 50vh;
   filter: contrast(120%);
 }
-#miembros{background: linear-gradient(to right, rgb(21,91,150) , rgb(1,255,255));}
+#miembros{background: whyte;}
 /*Avance semanal*/
 #semanal{
-  background: linear-gradient(to right, rgb(21,91,150) , rgb(1,255,255));
+  background: whyte;
   padding: 30px;
   border: solid black;
   border-width: 1px;
