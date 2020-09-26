@@ -1,9 +1,9 @@
 body::-webkit-scrollbar{
   width: 12px;
-  background: rgb(174, 223, 219);
+  background: rgb(192, 192, 192));
 }
 body::-webkit-scrollbar-thumb{
-  background: red;
+  background: rgb(128, 128, 128);
 }
 #header img{
   width: 24vh;
@@ -54,6 +54,10 @@ body::-webkit-scrollbar-thumb{
   padding: 2%;
 }
 
+#MisionVision{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
 
 #menusemanal h1 {
   color: black;
@@ -281,6 +285,7 @@ ul, ol {
     list-style: none;
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .social-inner {
@@ -298,9 +303,11 @@ ul, ol {
 }
 #textofooter{
   text-align: justify;
+  font-family: 'Poppins', sans-serif;
 }
 #footercontact{
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 #holis{
 display: none;
