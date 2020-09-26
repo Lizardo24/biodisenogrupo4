@@ -295,7 +295,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .context-dark, .bg-gray-dark, .bg-primary {
-    color: #FEB66C;
+    color: rgb(0, 0, 0);
 }
 
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
@@ -325,7 +325,7 @@ font-family: 'Poppins', sans-serif;
 }
 .social-container .col {
     border: 1px solid #FEB66C;
-    background: #FEB66C;
+    rgb(255, 255, 255);
 }
 #textofooter{
   text-align: justify;
