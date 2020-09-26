@@ -61,12 +61,12 @@ body::-webkit-scrollbar-thumb{
 
 #Mision{
   font-family: 'Poppins', sans-serif;
-  color: black;
+  color: #FEB66C;
 }
 
 #Vision{
   font-family: 'Poppins', sans-serif;
-  color: black;
+  color: #FEB66C;
 
 }
 
@@ -291,13 +291,6 @@ font-family: 'Poppins', sans-serif;
     visibility: visible;
 }
 
-ul, ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    color: #FEB66C;
-    font-family: 'Poppins', sans-serif;
-}
 
 .social-inner {
     display: flex;
