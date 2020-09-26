@@ -287,6 +287,14 @@ font-family: 'Poppins', sans-serif;
   filter: grayscale(60%);
 }
 
+#telefono {
+  color: rgb(0, 0, 0);
+}
+
+#correo{
+  color: rgb(0, 0, 0);
+}
+
 .text-center mt-4{
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
