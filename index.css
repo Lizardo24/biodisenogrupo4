@@ -12,7 +12,7 @@ body::-webkit-scrollbar-thumb{
   font-family: 'Poppins', sans-serif;
 }
 #caruselletra {
-  font-family: 'Bad Script', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 #main img{
   max-height: 90vh;
@@ -56,7 +56,8 @@ body::-webkit-scrollbar-thumb{
 
 
 #menusemanal h1 {
-    color: black;
+  color: black;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container_foto {
@@ -81,7 +82,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .container_foto h2 {
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-weight: 800;
     font-size: 25px;
     border-bottom: #fff solid 1px;
@@ -89,8 +90,9 @@ body::-webkit-scrollbar-thumb{
 
 .container_foto h4 {
     font-weight: 300;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container_foto img {
