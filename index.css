@@ -240,7 +240,7 @@ box-shadow: 0px 3.5px 9px 0px rgba(0, 0, 0, 0.5);
 /*Nosotros*/
 #Nosotros{
 text-align:center;
-background-color: rgb(238,233,239);
+background-color: rgb(255, 255, 255);
 border-radius: 2px;
 font-family: 'Poppins', sans-serif;
 
@@ -294,9 +294,9 @@ ul, ol {
     align-items: center;
     width: 100%;
     padding: 23px;
-    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.5);
+    color: #FEB66C;
 }
 .social-container .col {
     border: 1px solid #FEB66C;
