@@ -274,7 +274,7 @@ font-family: 'Poppins', sans-serif;
   filter: grayscale(60%);
 }
 .context-dark, .bg-gray-dark, .bg-primary {
-    color: rgba(255, 255, 255, 0.8);
+    color: #FEB66C;
 }
 
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
@@ -308,7 +308,7 @@ font-family: 'Poppins', sans-serif;
 }
 #textofooter{
   text-align: justify;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 #footercontact{
   text-align: center;
