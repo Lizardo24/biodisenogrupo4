@@ -238,9 +238,10 @@ box-shadow: 0px 3.5px 9px 0px rgba(0, 0, 0, 0.5);
 }
 #arbolcausaefecto{
   margin-top: 3%;
-  margin-left: 14%;
+  margin-left: 25%;
   margin-bottom: 3%;
   filter: contrast(120%);
+  
 }
 #info2{
   background-color: rgba(46,46,46,1);
