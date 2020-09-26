@@ -1,6 +1,6 @@
 body::-webkit-scrollbar{
   width: 12px;
-  background: #AEDFDB;
+  background: rgb(174, 223, 219);
 }
 body::-webkit-scrollbar-thumb{
   background: red;
@@ -60,7 +60,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .container_foto {
-    background-color: #FFFFFF;
+    background-color:rgb(255, 255, 255);
     padding: 0;
     overflow: hidden;
     max-width: 350px;
