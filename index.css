@@ -55,8 +55,19 @@ body::-webkit-scrollbar-thumb{
 }
 
 #MisionVision{
+  font-family: 'Nunito Sans', sans-serif;
+  color: black;
+}
+
+#Mision{
   font-family: 'Poppins', sans-serif;
   color: black;
+}
+
+#Vision{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+
 }
 
 #menusemanal h1 {
