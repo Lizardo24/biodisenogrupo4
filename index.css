@@ -261,7 +261,7 @@ font-family: 'Poppins', sans-serif;
 #imagenmision{
   max-width: 100%;
   border-radius: 4px;
-    align-self: center;
+  align-self: center;
 }
 /*Nosotros*/
 /*contactanos*/
@@ -302,11 +302,11 @@ font-family: 'Poppins', sans-serif;
     padding: 23px;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    color: #FEB66C;
+    color: rgb(0, 0, 0);
 }
 .social-container .col {
     border: 1px solid #FEB66C;
-    color: #FEB66C;
+    background: #FEB66C;
 }
 #textofooter{
   text-align: justify;
