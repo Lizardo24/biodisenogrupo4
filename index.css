@@ -61,12 +61,14 @@ body::-webkit-scrollbar-thumb{
 
 #Mision{
   font-family: 'Poppins', sans-serif;
+  border-radius: 2px;
   color: #FEB66C;
 }
 
 #Vision{
   font-family: 'Poppins', sans-serif;
   color: #FEB66C;
+  border-radius: 2px;
 
 }
 
