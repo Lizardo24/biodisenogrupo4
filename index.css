@@ -1,6 +1,6 @@
 body::-webkit-scrollbar{
   width: 12px;
-  background: #2F2F2F;
+  background: #AEDFDB;
 }
 body::-webkit-scrollbar-thumb{
   background: red;
@@ -12,7 +12,7 @@ body::-webkit-scrollbar-thumb{
   font-family: 'Poppins', sans-serif;
 }
 #caruselletra {
-  font-family: 'Orbitron';
+  font-family: 'Poppins', sans-serif;
 }
 #main img{
   max-height: 90vh;
@@ -60,13 +60,12 @@ body::-webkit-scrollbar-thumb{
 }
 
 .container_foto {
-    background-color: rgba(57, 62, 93, 0.7);
+    background-color: #FFFFFF;
     padding: 0;
     overflow: hidden;
     max-width: 350px;
     margin: 5px;
     border-radius: 30px;
-    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
 }
 
 .container_foto article {
@@ -226,7 +225,7 @@ box-shadow: 0px 3.5px 9px 0px rgba(0, 0, 0, 0.5);
 /*Proyectos*/
 /*Publicaciones*/
 #public1{
-  background-color: rgb(238,233,239);
+  background-color: 	#FFFFFF);
   border-radius: 2px;
 }
 /*Publicaciones*/
