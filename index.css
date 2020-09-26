@@ -61,14 +61,14 @@ body::-webkit-scrollbar-thumb{
 
 #Mision{
   font-family: 'Poppins', sans-serif;
-  border-radius: 2px;
+  font-weight: bold;
   color: #FEB66C;
 }
 
 #Vision{
   font-family: 'Poppins', sans-serif;
   color: #FEB66C;
-  border-radius: 2px;
+  font-weight: bold;
 
 }
 
@@ -286,6 +286,14 @@ font-family: 'Poppins', sans-serif;
   background-attachment: fixed;
   filter: grayscale(60%);
 }
+
+.text-center mt-4{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #FEB66C;
+
+}
+
 .context-dark, .bg-gray-dark, .bg-primary {
     color: #FEB66C;
 }
