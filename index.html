@@ -1,367 +1,638 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="enviar.php">
-    <title>Biodiseño1.com</title>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Poppins:wght@200&display=swap" rel="stylesheet">    
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="index.js"></script>
-    
-  </head>
-  <body>
-    <!--encabezado-->
-    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-      <div class="container">
-        <a class="navbar-brand" href="#"><img src="Logos/upch.png" alt="logo"><strong id="proyectoheader">Proyectos de biodiseño 1</strong><img src="Logos/pucp.png" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#main">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#noticias">Avance semanal</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Entregables
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#botonparticipar">Entregable1</a>
-                <a class="dropdown-item" href="#">Entregable2</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Entregable3</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Nosotrosa">Nosotros</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#contactanosa">Contáctanos <span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-        </div>
-  </div>
-</nav>  <!--encabezado-->
-<!--presentación-->
-<main id="main">
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-
-        <img src= "Imagenes/1.png"  class="d-block w-100" alt="...">
-
-
-        <div class="carousel-caption d-none d-md-block" id="logocarusel">
-          <div class="container" >
-            <img src="Imagenes/vscovid.png" alt="logo" >
-          </div>
-          <h2 ><strong></strong></h2>
-          <h3 ><strong id="caruselletra">Rehabilitación respiratoria en pacientes recuperados de COVID-1</strong></h3>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src= "Imagenes/rehabi.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Novedad1</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="Imagenes/cov1.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block" >
-          <h5>Novedad2</h5>
-          <p id="noticias">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </div>
-      </div>
-      <div class="overlay" >
-      <div class="container">
-          <div class="row align-items-center">
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next" >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</main>
-<!--presentación-->
-<!--Avance-semanal-->
-
-<section id="semanal">
-<div class="container-fluid">
-  <div class="row" id="menusemanal">
-    <div class="container-fluid contenedor text-center">
-   <h1 class="text-center">Avance Semanal</h1>
-   <div class=" container text-center">
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 container_foto ">
-         <div class="ver_mas text-center" id="semanasssss">
-            <span  class="lnr lnr-eye">Ver mas...</span>
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Biodiseño-grupo4</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- site icons -->
+      <link rel="icon" href="images/fevicon/fevicon.png" type="image/png" />
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
+      <!-- site css -->
+      <link rel="stylesheet" href="css/style.css" />
+      <!-- responsive css -->
+      <link rel="stylesheet" href="css/responsive.css" />
+      <!-- colors css -->
+      <link rel="stylesheet" href="css/colors.css" />
+      <!-- wow animation css -->
+      <link rel="stylesheet" href="css/animate.css" />
+      <link rel="stylesheet" href="css/estilosemanas.css" />
+      <link rel="stylesheet" href="css/imagenes.css" />
+      <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+      <script src="sections.js" language="javascript" type="text/javascript"></script>
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body id="default_theme" class="home_page1">
+      <!-- header -->
+      <header class="header header_style1">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-9 col-lg-10">
+                  <div class="logo" id="logo"><a href="index.html"><img src="images/logo.png" alt="#" /></a></div>
+                  <div class="main_menu float-right">
+                     <div class="menu">
+                        <ul class="clearfix">
+                           <li class="active"><a href="index.html">Inicio</a></li>
+                           <!--<li><a href="about.html">Sobre Nosotros</a></li>-->
+                           <li><a href="service.html">Avances</a></li>
+                           <!--<li><a href="screenshots.html">Galería</a></li>-->
+                           <!---<li><a href="pricing.html">Precios</a></li> -->
+                           <li><a href="team.html">Equipo</a></li>
+                           <!---<li><a href="contact.html">Contáctanos</a></li>-->
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 col-lg-2">
+                  <div class="right_bt"><a class="bt_main" href="https://docs.google.com/document/d/1gBujfrYiZoUyxIVGT3YtNmFunWRsoXas/edit">Informe</a> </div>
+               </div>
+            </div>
          </div>
-         <article class="text-left">
-            <h2>Primer Avance<br></h2>
-            <h4>Descripción del problema</h4>
-
-         </article>
-         <img src="Imagenes/logo1.png" alt="">
-      </div>
-   </div>
-</div>
-
-  </div>
-</div>
-</section>
-
-<!--Avance-semanal-->
-<!--proyecto-->
-<!--proyecto-->
-<section id="proyecto">
-  <div class="container-fluid  ">
-
-    <div class="row" id="targeta">
-      <div class="row-mt-1-ml-0-mr-0"  id="columnaproblema">
-        <img src="Imagenes/problematica.png" class="d-block w-100">
-      </div>
-      <div class="col-lg-5 offset-1 col-sm-11" id="imagenessemana1">
-        <h3 class="text-center"><u id="semanatitulo">Semana1</u></h3>
-        <img src="Imagenes/reloj.png" alt="">
-        <button type="button" class="btn btn-warning btn-lg btn-block mb-2" id="botonparticipar">Regresar a avanze semanal</button>
-      </div>
-      <div class="col-lg-5 offset-1 col-sm-11" id="info">
-<p>La pandemia de la COVID-19 causada por la infección del virus SARS CoV-2 colocó en una situación de sobrecargo y a punto del colapso grave del sistema sanitario peruano según el vicedecano del Colegio Médico del Perú, Ciro Maguiña[Reflexiones sobre el COVID-19, el Colegio Médico del Perú y la Salud Pública]. Cifras muestran que 1 de cada 4 personas solo en nuestra capital contraen la enfermedad de acuerdo a un Estudio de Prevalencia realizado en las últimas semanas por el Ministerio de Salud de Perú [4] y hasta la fecha se han detectado 27.9M de casos positivos a nivel mundial siendo 905 mil la cifra oficial de fallecidos. Para el 24 de septiembre, según datos del MINSA, se predice que no existirán camas disponibles con respirador artificial en el área de cuidados intensivos [3].</p>
-        <p>El primer caso registrado en territorio peruano fue anunciado el 6 de marzo del 2020 [1]. Posteriormente, la Organización Mundial de la Salud (OMS) proclamó a la COVID-19 como pandemia mundial el 11 de marzo del 2020. En consecuencia, debido al aumento exponencial de contagios, el Gobierno del Perú se declaró en estado de emergencia a nivel nacional el 15 de marzo [2].</p>
-
-      </div>
-      <div class="col-12" id="info">
-  <p>Actualmente, existen 702 776 casos positivos en el Perú según los datos del Ministerio de Salud (MINSA), siendo 303 661 infectados en Lima y más de 30 236 muertes confirmadas [3]. Según una comparación de muertes por coronavirus en 189 países en relación con su población, Perú tuvo la mayor cantidad de pérdidas por COVID-19 hasta el 10 de septiembre de 2020. En la Figura 2. se puede ver la letalidad de esta  enfermedad por regiones en el Perú.</p>
-    
-      </div>
-      <img src="Imagenes/letalidad.png" class="d-block w-100"  id="letalidad">
-        <p>Figura 2. Letalidad COVID-19 según casos en el Perú al 31 de agosto [Sistema de Vigilancia Noti – Sistema de Defunciones SINADEF - MINSA].</p>
-      <div class="col-lg-5 offset-1 col-sm-11" id="info">
-        
-    <p>Actualmente, existen 702 776 casos positivos en el Perú según los datos del Ministerio de
-Salud (MINSA), siendo 303 661 infectados en Lima y más de 30 236 muertes confirmadas
-[3]. Según una comparación de muertes por coronavirus en 189 países en relación con su
-población, Perú tuvo la mayor cantidad de pérdidas por COVID-19 hasta el 10 de
-septiembre de 2020.</p>
-        
-        <p>
-         En la investigación realizada por el Centro Nacional de Epidemiología, Prevención y Control de Enfermedades (CDC) y el
-          Instituto Nacional de Salud (INS), se evidenció que 2 700 707 peruanos estarían contagiadas de Covid-19, siendo el 25.3% de la población de Lima y Callao [4].</p>
-      </div>
-      <div class="col-lg-5 offset-1 col-sm-11 mt-5 " id="imagenessemana1">
-        <img src="Imagenes/reloj2.png" alt="">
-      </div>
-
-    <div class="col-12" id="info">
-  <p>Los pacientes recuperados exitosamente de COVID-19 necesitarán apoyo para poder rehabilitarse ya que estas personas no solo enfrentan problemas físicos sino también atraviesan daños psicosociales y cognitivos[1]. Se estima que entre un 21% - 96% de los pacientes que han sufrido de enfermedad pulmonar obstructiva desarrollan ansiedad [5]. Asimismo, se realizaron estudios después de dos meses del alta de los pacientes, los cuales indicaron que dentro de una muestra de 143 personas, el 87,4% reportaba al menos un síntoma persistente (fatiga y disnea principalmente); además de observar un empeoramiento de la calidad de vida en el 44,1% de los pacientes. Sin embargo, no todos los que llegaron a cuidados intensivos presentaron estas secuelas: en el estudio se resalta que solo el 12.6% estuvieron hospitalizados en UCI [6]. Es decir, sufren consecuencias luego de abandonar el centro médico, especialmente aquellos que pertenecieron a UCI. Por esta razón, se busca favorecer al paciente de manera integral a través de la rehabilitación para que permanezcan activamente involucrados en su propia atención médica y sobretodo, menos dependientes de su entorno y de los profesionales de salud [7].</p>
-    </div>
-      <p>En el Perú, se brindan servicios de rehabilitación respiratoria para pacientes post - COVID, uno de ellos es el Servicio de Medicina Física y Rehabilitación del Hospital Dos de Mayo, el cual ofrece terapias con el objetivo de preservar y mejorar la función cardiorrespiratoria; así como también reducir la sintomatología asociada, optimizando su capacidad funcional. Sin embargo, los operadores responsables del área de rehabilitación están sobresaturados debido al incremento de los pacientes post- COVID que necesitan atención; y no persisten en el seguimiento del programa después de que ellos son dados de alta. 
-La tecnología tiene un impacto en la forma como se desenvuelve en la salud y puede proporcionar una plataforma para un método de administración mucho más proactivo pues utiliza diversas intervenciones para mejorar aún más la adherencia y en consecuencia, los resultados de rehabilitación para los pacientes. Por ejemplo, el uso de programas de Coaching o Goal setting, a través de comunicación remota, tienen como objetivo motivar y fomentar la adherencia en fisioterapia mediante la incorporación de estrategias combinadas comúnmente de supervisión, retroalimentación y refuerzo. Por otra parte, también se considera a la educación como una intervención para mejorar la adherencia a la rehabilitación, ya que al ser multifactorial puede afectar las barreras o amenazas percibidas de los pacientes hacia el tratamiento [8].</p>
-    <div class="col-12" id="info2">
-      <h3 class="text-center"><u id="semanatitulo">Arbol de causas y efectos</u></h3>
-<img src="Imagenes/arbol.png" alt="" id="arbolcausaefecto">
-<button type="button" class="btn btn-warning btn-lg btn-block mb-2" id="botonparticipar2">Regresar a avanze semanal</button>
-  </div></div>
-    <!--proyecto-->
-    <!--Publicaciones-->
-    <div class="row mt-4" >
-      <h3>Entregables</h3>
-      <div class="col-10 offset-2" id="public1">
-        <p >Se esta trabajando en esta sección ... Próximamente</p>
-  <div id="Nosotrosa" class="mb-4" >
-      <p>"  "</p>
-  </div>
-      </div>
-    </div>
-  </div>
-<!--Publicaciones-->
-<h3 class="text-center mt-4">Nosotros</h3>
-<div class="row mt-3" id="Nosotros">
-
-  <div class="col-6"" >
-    <h4 id="Mision">Misión</h4>
-   <p id="MisionVision"> Nuestra misión es contribuir y complementar la rehabilitación respiratoria de los pacientes post- COVID dados de alta con el fin de que continuen 
-                          con un correcto tratamiento a través del monitoreo remoto y evaluando la adherencia de los mismos.</p>
-    <h4 id="Vision">Visión</h4>
-   <p id="MisionVision"> Ser un equipo versátil y eficaz en el desarrollo de tecnologías innovadoras del área de salud buscando la sastifacción del usuario. </p>
-  </div>
- <div class="col-6" id="imagenmision">
-    <img src="Imagenes/Reab1.png" class="d-block w-100" alt="...">
-  </div>                       
-</div>
-<div id="contactanosa" class="mb-4" >
-    <p>"  "</p>
-</div>
-</section>
-
-
-<!--contactanos-->
-
-<section id="contactanos">
-  <div class="fondocontacto">
-    <div class="row-2 ">
-      <div class="col-md-8 offset-md-2 pt-2 text-uppercase text-center ">
-        <h2 class= "mt-4" id="escribenos" style="color:white">Escríbenos</h2>
-          <form action="enviar.php" method="POST">
-            <div class="form-row mb-3 mt-1">
-              <div class="form group col-6">
-                <input type="nombre" class="form-control" placeholder="Nombres" name="nombre">
-              </div>
-              <div class="form-group col-6 " >
-                <input type="apellido" class="form-control" placeholder="Apellidos" name="apellido">
-              </div>
-              <div class="form-group col-12 " >
-                <input type="email" class="form-control" placeholder="Email" name="email">
-              </div>
+      </header>
+      <section id="banner_parallax" class="slide_banner1">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="full">
+                     <div class="slide_cont">
+                        <h2>  Proyecto de Biodiseño 1 <br> 2020 - 2</h2>
+                        <p>Desafío de Rehabilitación Respiratoria en pacientes post - COVID </p>
+                        <!--- <div class="full slide_bt"> <a class="white_bt bt_main" href="index.html">Download</a> </div> --->
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="full">
+                     <div class="slide_pc_img wow fadeInRight" data-wow-delay="1s" data-wow-duration="2s"> <img src="images/pc-banner.png" alt="#" /> </div>
+                  </div>
+               </div>
             </div>
-            <div class="form-row mb-3">
-            <div class="form-group col-12">
-              <textarea name="texto"class="form-control form-control-lg" placeholder="Mensaje"></textarea>
+         </div>
+      </section>
+      <!-- end header -->
+      <!-- section -->
+      <section class="layout_padding padding_top_0">
+         <div class="container">
+            <div class="row margin_bottom_30">
+               <!-- featured cont -->
+               <div class="col-md-6 cont_theme_blog">
+                  <div class="full">
+                     <h3>PROBLEMA</h3>
+                     <p>Ausencia de monitoreo y datos de adherencia del programa de rehabilitación respiratoria (Fase III) de los pacientes post-COVID entre los 20 a 60 años del Servicio de Medicina Física y Rehabilitación del Hospital Dos de Mayo.</p>
+                  </div>
+               </div>
+               <!-- end featured cont -->
+               <!-- featured image -->
+               <div class="col-md-6 wow fadeInRight" data-wow-delay="0.5" data-wow-duration="1s">
+                  <div class="full">
+                     <div class="center"><img src="images/ser1.png" alt="#" /></div>
+                  </div>
+               </div>
+               <!-- end featured image -->
             </div>
-          </div>
-          <div class="form-row">
-            <div class="form-group col">
-              <button  type="submit" class="btn btn-info btn-block" value="enviar">Enviar</button>
+            <div class="row margin_bottom_30">
+               <!-- featured image -->
+               <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.5" data-wow-duration="1s">
+                  <div class="full">
+                     <div class="center"><img src="images/ser2.png" alt="#" /></div>
+                  </div>
+               </div>
+               <!-- end featured image -->
+               <!-- featured cont -->
+               <div class="col-md-6 cont_theme_blog">
+                  <div class="full">
+                     <h3>808 714 casos positivos en Perú*</h3>
+                     <p> Actualmente, nos encontramos en pandemia mundial debido al virus Sars Cov 2 el cual nos ha llevado a cambiar nuestro estilos de vida completamente. <br>
+                        Hasta el día 28/09/2020 se han registrado cerca de 900K casos confirmados según la prueba rápida y la de PCR.<br>
+                        Además, se han registrado 32 324 fallecidos en el territorio peruano. Este virus ataca nuestro sistema respiratorio acabando con nuestro condición de vida saludable.</p>
+                  </div>
+               </div>
+               <!-- end featured cont -->
             </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-<!--contactanos-->
-<!--miembros-->
-<section id="miembros" >
-  <div class="container">
-    <div class="row">
-      <div class="col text-center text uppercase" >
-        <small>Conoce a nuestro</small>
-        <h2>Equipo</h2>
-        <div class="row">
+            <div class="row margin_bottom_30">
+               <!-- featured cont -->
+               <div class="col-md-6 cont_theme_blog">
+                  <div class="full">
+                     <h3>PROPUESTA</h3>
+                     <p>Nosotros  como estudiantes de Ingeniería Biomédica propondremos soluciones para aquellos pacientes post - COVID que necesitarán rehabilitación respiratoria.<br>
+                        </p>
+                  </div>
+               </div>
+               <!-- end featured cont -->
+               <!-- featured image -->
+               <div class="col-md-6 wow fadeInRight" data-wow-delay="0.5" data-wow-duration="1s">
+                  <div class="full">
+                     <div class="center"><img src="images/ser3.png" alt="#" /></div>
+                  </div>
+               </div>
+               <!-- end featured image -->
+            </div>
+         </div>
+      </section>
+      <!-- end section -->
+      <!-- section -->
+      <section class="layout_padding gradiant_bg cross_layout">
+         <h2 id="como"> ¿Cómo lo vamos a hacer?</h1>
+         <li id="como" Implementaremos el método de Desing Thinking</li>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="information_blogs">
+                     <div class="imf_icon"><img src="images/icon2.png" alt="#" /></div>
+                     <div class="imf_head">
+                        <h3>Empatizar</h3>
+                     </div>
+                     <div class="imf_cont">
+                        <p>Entender al usuario como persona integral y autónoma y, a través de esto, conocer las necesidades que busca satisfacer y que podamos solucionar.</p>
+                     </div>
+                     <!---<div class="imf_read"><a href="#">Leer más</a></div> --->
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="information_blogs">
+                     <div class="imf_icon"><img src="images/icon2.png" alt="#" /></div>
+                     <div class="imf_head">
+                        <h3>Definir</h3>
+                     </div>
+                     <div class="imf_cont">
+                        <p>Una vez que conocemos las necesidades de la persona, se busca definir de manera precisa el problema para poder plantear soluciones que lleguen a satisfacerlas.</p>
+                     </div>
+                     <!--- <div class="imf_read"><a href="#">Read More</a></div>--->
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="information_blogs">
+                     <div class="imf_icon"><img src="images/icon3.png" alt="#" /></div>
+                     <div class="imf_head">
+                        <h3>Idear</h3>
+                     </div>
+                     <div class="imf_cont">
+                        <p>Con el problema establecido y enfocado se dará una lluvia de ideas para encontrar una solución. Toda idea es válida, sin embargo, luego se evaluará si es posible o no.</p>
+                     </div>
+                     <!--- <div class="imf_read"><a href="#">Read More</a></div> --->
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="information_blogs">
+                     <div class="imf_icon"><img src="images/icon2.png" alt="#" /></div>
+                     <div class="imf_head">
+                        <h3>Prototipar</h3>
+                     </div>
+                     <div class="imf_cont">
+                        <p>Materializar nuestra idea estrella. Puede ser de manera digital o física, según lo amerite la solución del problema. Incluso pueden ser dos prototipos.</p>
+                     </div>
+                     <!--- <div class="imf_read"><a href="#">Read More</a></div> --->
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="information_blogs">
+                     <div class="imf_icon"><img src="images/icon1.png" alt="#" /></div>
+                     <div class="imf_head">
+                        <h3>Evaluar</h3>
+                     </div>
+                     <div class="imf_cont">
+                        <p>¿De verdad nuestra solución sastiface y cubre los requerimientos funcionales? Esto será crucial para poder ver los errores y aciertos y así proceder a realizar las correcciones necesarias del prototipo.</p>
+                     </div>
+                     <!--- <div class="imf_read"><a href="#">Read More</a></div> --->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end section -->
+      <!-- section -->
+      <section class="layout_padding layer_style">
+         <div class="container" >
+            <div class="row">
+               <div class="col-sm-12">
+                  <div class="full text_align_center">
+                     <div class="heading_main center_head_border heading_style_1">
+                        <h2>Avance <span> Semanal</span></h2>
+                     </div>
+                  </div>
+               </div>
+            </div>
 
-          <div class="col-lg-1 col-md-4 col-sm-10" class="mb-2">
-            </div>
 
-        <div class="col-lg-2 col-md-4 col-sm-10" class="mb-2">
-          <div class="card mb-3" >
-              <img src="logoejemplo/persona.png" class="card-img-top" alt="...">
-              <div class="card-body">
-              <h5 class="card-title">Persona</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur  </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-10" class="mb-2">
-        <div class="card mb-3" >
-            <img src="logoejemplo/persona.png" class="card-img-top" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">Persona</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur  </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="row app-features" id="semanitas">
+               <div class="col-md-4 col-sm-6 col-xs-12">
+                  <ul class="features-left">
+                     <li>
+                        <i class="flaticon-wordpress-logo"></i>
+                        <div class="fl-inner">
+                           <h4>Semana 1</h4>
+                           <p>Análisis y y planteamiento del problema. Contexto, causas y efectos. </p>
+                           <div class="full slide_bt"> <a class="white_bt bt_main" id="primerasemana" href="semana1.html">Ver avance</a> </div>
+                        </div>
+                     </li>
+                     <li>
+                        <i class="flaticon-windows"></i>
+                        <div class="fl-inner">
+                           <h4>Semana 2</h4>
+                           <p>Medición de causas y efectos. Avance del estado del arte </p>
+                           <div class="full slide_bt"> <a class="white_bt bt_main" id="segundasemana" href="semana2.html">Ver avance</a> </div>
+                        </div>
+                     </li>
+                     <li>
+                        <i class="flaticon-price-tag"></i>
+                        <div class="fl-inner">
+                           <h4>Semana 3</h4>
+                           <p>Definición final del problema. Árbol de causas y efectos.</p>
+                           <div class="full slide_bt"> <a class="white_bt bt_main" id="tercerasemana" href="semana3.html">Ver avance</a> </div>
+                        </div>
+                     </li>
+                     <li>
+                        <i class="flaticon-new-file"></i>
+                        <div class="fl-inner">
+                           <h4>Semana 4</h4>
+                           <p>Requerimientos funcionales y no funcionales. Avance del QFD. </p>
+                           <div class="full slide_bt"> <a class="white_bt bt_main" id="cuartasemana" href="semana4.html"> Ver avance</a> </div>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-4 col-sm-6 col-xs-12">
+                  <ul class="features-right">
+                     <li>
+                        <i class="flaticon-pantone"></i>
+                        <div class="fr-inner">
+                           <h4>Semana 5</h4>
+                           <p>Avance de la página web. Revisión de realizado anteriormente. </p>
+                           <div class="full slide_bt"> <a class="white_bt bt_main" href="index.html">Ver avance</a> </div>
+                        </div>
+                     </li>
+                     <li>
+                        <i class="flaticon-cloud-computing"></i>
+                        <div class="fr-inner">
+                           <h4>Semana 6</h4>
+                           <p>Requerimientos de uso y de software. Propuesta de esquema de funciones.</p>
+                           <div class="full slide_bt"> <a class="white_bt bt_main" href="index.html">Ver avance</a> </div>
+                        </div>
+                     </li>
+                     <li>
+                        <i class="flaticon-line-graph"></i>
+                        <div class="fr-inner">
+                           <h4>Semana 7</h4>
+                           <p>Definición de esquema de funciones. Matriz morfológica. Análisis técnico.</p>
+                           <div class="full slide_bt"> <a class="white_bt bt_main" href="index.html">Ver avance</a> </div>
+                        </div>
+                     </li>
+                     <li>
+                        <i class="flaticon-coding"></i>
+                        <div class="fr-inner">
+                           <h4>Semana 8</h4>
+                           <p>Selección de solución óptima.Análisis de riesgos y restricciones de la solución.</p>
+                           <div class="full slide_bt"> <a class="white_bt bt_main" href="index.html">Ver avance</a> </div>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-4 col-sm-6 col-xs-12">
+                  <ul class="features-right">
+                     <li>
+                        <i class="flaticon-coding"></i>
+                        <div class="fr-inner">
+                           <h4>Semana 9</h4>
+                           <p>Discusión de avances previos y del prototipado. </p>
+                           <div class="full slide_bt"> <a class="white_bt bt_main" href="index.html">Ver avance</a> </div>
+                        </div>
+                     </li>
+                     <li>
+                        <i class="flaticon-coding"></i>
+                        <div class="fr-inner">
+                           <h4>Semana 10</h4>
+                           <p>Entregar el informe. Revisión de página web y de los avances previos.</p>
+                           <div class="full slide_bt"> <a class="white_bt bt_main" href="index.html">Ver avance</a> </div>
+                        </div>
+                     </li>
+                     <li>
+                        <i class="flaticon-coding"></i>
+                        <div class="fr-inner">
+                           <h4>Semana 11</h4>
+                           <p>Diseño del componente electrónico y mecáinco. Diseño del software. </p>
+                           <div class="full slide_bt"> <a class="white_bt bt_main" href="index.html">Ver avance</a> </div>
+                        </div>
+                     </li>
+                     <li>
+                        <i class="flaticon-coding"></i>
+                        <div class="fr-inner">
+                           <h4>Semana 12</h4>
+                           <p>Revisión de los diseños. Avance de la implementación.</p>
+                           <div class="full slide_bt"> <a class="white_bt bt_main" href="index.html">Ver avance</a> </div>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+               <!---<div class="col-md-4 wow fadeInRight" data-wow-delay="0.5" data-wow-duration="1s">
+                  <div class="full">
+                     <div class="center">
+                        <img src="images/application_screen.png" alt="#" />
+                     </div>
+                  </div>
+               </div>
+               useless photo --->
             </div>
-      </div>
-    </div>
-    <div class="col-lg-2 col-md-4 col-sm-10" class="mb-2">
-      <div class="card mb-3" >
-          <img src="logoejemplo/persona.png" class="card-img-top" alt="...">
-          <div class="card-body">
-          <h5 class="card-title">Persona</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur  </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-    </div>
-  </div>
-  <div class="col-lg-2 col-md-4 col-sm-10" class="mb-2">
-    <div class="card mb-3" >
-        <img src="logoejemplo/persona.png" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title">Persona</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur  </p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-  </div>
-</div>
-<div class="col-lg-2 col-md-4 col-sm-10" class="mb-2">
-  <div class="card mb-3" >
-      <img src="logoejemplo/persona.png" class="card-img-top" alt="...">
-      <div class="card-body">
-      <h5 class="card-title">Persona</h5>
-      <p class="card-text">Lorem ipsum dolor sit amet, consectetur  </p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-</div>
-</div>
+         </div>
+      </section>
+      <!-- end section -->
+      <!-- section -->
 
-      </div>
-    </div>
-  </div>
-</section>
-<!--miembros-->
-  <!--footer-->
-  <footer class="section footer-classic context-dark bg-image" style="background: rgb(255, 255, 255);">
-          <div class="container">
-            <div class="row row-30">
-              <div class="col-md-6 col-xl-5">
-                <div class="pr-xl-6" id="textofooter"><a class="brand" href="index.html"></a>
-                  <p>Somos un equipo que busca brindar soluciones de alto impacto a través de la tecnología y mejorar la calidad de vida del usuario </p>
-                  <!-- Rights-->
-                  <p class="rights"><span>©  </span><span class="copyright-year">2020</span><span> </span><span>Ingenieria</span><span>. </span><span>Todos los derechos reservados</span></p>
-                </div>
-              </div>
-              <div class="col-md-6" id="footercontact">
-                <h5>Contacto</h5>
-                <dl class="contact-list">
-                  <dt>Address:</dt>
-                  <dd>798 Ubicacion</dd>
-                </dl>
-                <dl class="contact-list">
-                  <dt>email:</dt>
-                  <dd><a href="mailto:#" style="color: black">email@gmail.com</a></dd>
-                </dl>
-                <dl class="contact-list">
-                  <dt>Teléfonos de contacto:</dt>
-                  <dd><a href="tel:#" style="color: black">98497735675</a> <span>or</span> <a href="tel:#" style="color: black">8975349875</a>
-                  </dd>
-                </dl>
-              </div>
+      <!--
+      <section class="layout_padding gradiant_bg cross_layout">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <div class="full text_align_center white_fonts">
+                     <div class="heading_main center_head_border heading_style_1">
+                        <h2>Easy <span>Steps</span></h2>
+                     </div>
+                  </div>
+               </div>
             </div>
-          </div>
-          <div class="row no-gutters social-container">
-            <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span><img src="facebookicono.png" width="40" height="40" alt="">Facebook</span></a></div>
-            <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span><img src="twiter.png" width="40" height="40" alt="">twitter</span></a></div>
-          </div>
-        </footer>
-  <!--footer-->
+            <div class="row step_section">
+               <div class="offset-xl-1 col-xl-10 col-md-12">
+                  <div class="row">
+                     <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                        <div class="step_blog arrow_right_step">
+                           <div class="step_inner">
+                              <i class="fa fa-diamond"></i><br>
+                              <p>Go app store</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                        <div class="step_blog">
+                           <div class="step_inner">
+                              <i class="fa fa-user"></i><br>
+                              <p>Create an Account</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                        <div class="step_blog">
+                           <div class="step_inner">
+                              <i class="fa fa-download"></i><br>
+                              <p>Download & Install</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                        <div class="step_blog">
+                           <div class="step_inner">
+                              <i class="fa fa-thumbs-up"></i><br>
+                              <p>Enjoy & Rate us!</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      --->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  </body>
-</html>   <!-- Plantilla de bootstrap -->
+      <!-- end section -->
+      <!-- section -->
+      <section class="layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="full">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <div class="full text_align_center">
+                           <div class="heading_main center_head_border heading_style_1">
+                              <h2>¿Quíenes somos?</h2>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-12">
+                  <div class="full" style="margin-top:10px;">
+                     <div class="row">
+                        <div class="col-sm-12 col-md-4">
+                           <div class="table_price text_align_center">
+                              <div class="table_price_head">
+                                 <h5></h5>
+                              </div>
+                              <div class="table_price_cont">
+                                 <div class="table_price_per">
+                                    <p>MISIÓN
+                                       <small> </small>
+                                    </p>
+                                 </div>
+                                 <div class="table_price_cont_bottm">
+                                    <ul>
+                                       <li> </li>
+                                       <p>Nuestra misión es contribuir y complementar la rehabilitación respiratoria de los pacientes post- COVID dados de alta con el fin de que continuen con un correcto tratamiento a través del monitoreo remoto y evaluando la adherencia de los mismos.</p>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <!-- boton useless<div class="table_price_bottm"> <a class="bt_main" href="index.html">Buy now</a> </div> --->
+                           </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                           <div class="active_price table_price text_align_center">
+                              <div class="table_price_head">
+                                 <h5></h5>
+                              </div>
+                              <div class="table_price_cont">
+                                 <div class="table_price_per">
+                                    <p>VISIÓN<br>
+                                       <small> </small>
+                                    </p>
+                                 </div>
+                                 <div class="table_price_cont_bottm">
+                                    <ul>
+                                       <li> </li>
+                                       <p>Ser un equipo versátil y eficaz en el desarrollo de tecnologías innovadoras del área de salud buscando la sastifacción y bienestar del usuario. <br></p>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <!-- boton useless<div class="table_price_bottm"> <a class="reverse_bt bt_main" href="index.html">Buy now</a> </div>--->
+                           </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                           <div class="table_price text_align_center">
+                              <div class="table_price_head">
+                                 <h5> </h5>
+                              </div>
+                              <div class="table_price_cont">
+                                 <div class="table_price_per">
+                                    <p>Sabías que...<br>
+                                       <small> </small>
+                                    </p>
+                                 </div>
+                                 <div class="table_price_cont_bottm">
+                                    <ul>
+                                       <li>¿Te gustaría saber datos curiosos de la rehabilitación respiratoria en pacientes post - COVID?</li>
+                                       <li>Mira nuestro contenido!</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <div class="table_price_bottm"> <a class="bt_main" href="index.html">Leer más</a> </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end section -->
+      <!-- section -->
+      <section class="contact_section">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-xs-12 col-sm-12 col-md-6" style="padding:0;">
+                  <div class="full">
+                     <div id="map"></div>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-12 col-md-6" style="padding:0;">
+                  <div class="full">
+                     <div class="contact_form white_heading_border">
+                        <div class="contact_form_inner">
+                           <div class="full_heading white_fonts heading_main heading_style_1">
+                              <h2>Contáctanos</h2>
+                           </div>
+                           <p>Somos un equipo que busca brindar soluciones de alto impacto a través de la tecnología y mejorar la calidad de vida del usuario.<br>
+                              No dudes en contactarnos a través de nuestras redes, podemos brindarte información acerca de nuestro trabajo!<br>
+                              Solo déjanos tu nombre, tu número y tu correo para poder mantenerte al tanto. Cualquier duda, consulta o sugerencia es bienvenida.</p>
+                           <div class="form_contact">
+                              <!-- form -->
+                              <form action="index.html">
+                                 <fieldset>
+                                    <div class="field">
+                                       <input type="text" name="name" placeholder="Tu nombre" required="">
+                                    </div>
+                                    <div class="field">
+                                       <input type="text" name="name" placeholder="Tu celular" required="">
+                                    </div>
+                                    <div class="field">
+                                       <input type="email" name="email" placeholder="Email" required="">
+                                    </div>
+                                    <div class="field">
+                                       <textarea name="messager" placeholder="Mensaje" required=""></textarea>
+                                    </div>
+                                    <div class="field">
+                                       <button class="field_bt">Enviar</button>
+                                    </div>
+                                 </fieldset>
+                              </form>
+                              <!-- end form -->
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end section -->
+      <!-- footer -->
+      <footer class="footer_style_2">
+         <div class="footer_top">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 margin_bottom_30">
+                     <div class="full width_9" style="margin-bottom:25px;"> <a href="index.html"><img class="img-responsive" width="250" src="images/logo.png" alt="#"></a> </div>
+                     <div class="full width_9">
+                        <p>Estudiantes de Ingeniería Biomédica decididos a mejorar el bienestar del usuario en el área de salud.</p>
+                     </div>
+                     <div class="full width_9">
+                        <p>the vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati..</p>
+                     </div>
+                  </div>
+                  <!---<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 margin_bottom_30">
+                     <div class="full">
+                        <div class="footer_blog_2 width_9">
+                           <h3>Twitter Feed</h3>
+                           <p><i class="fa fa-twitter"></i> Creative_Talent - 26 mins
+                              Te invitamos a seguir la cta. de WEntrepreneur_ ¡Atrévete! #Emprendimiento #PyMES #Economía #Bussines #Negocios https://t.co/Y7tZMmxGHn
+                           </p>
+                           <p><i class="fa fa-twitter"></i> Creative_Talent - 26 mins
+                              Te invitamos a seguir la cta. de WEntrepreneur_ ¡Atrévete! #Emprendimiento #PyMES #Economía #Bussines #Negocios https://t.co/Y7tZMmxGHn
+                           </p>
+                        </div>
+                     </div>
+                  </div> --->
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 margin_bottom_30">
+                     <div class="full">
+                        <div class="footer_blog_2">
+                           <h3>Redes Sociales</h3>
+                        </div>
+                     </div>
+                     <div class="full">
+                        <ul class="footer-links">
+                           <li><a href="#"><i class="fa fa-facebook"></i> 256 Likes</a></li>
+                           <li><a href="#"><i class="fa fa-github"></i> 57+ Projects</a></li>
+                           <li><a href="#"><i class="fa fa-twitter"></i> 1,258 Followers</a></li>
+                           <li><a href="#"><i class="fa fa-pinterest"></i> 2538+ Pins</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!---<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 margin_bottom_30">
+                     <div class="full">
+                        <div class="footer_blog_2 width_9">
+                           <h3>Blog</h3>
+                        </div>
+                        <div class="blog_post_footer">
+                           <div class="blog_post_img"> <img width="80" height="80" src="images/scr1.png" alt="#"> </div>
+                           <div class="blog_post_cont">
+                              <p class="date">July 22, 2015</p>
+                              <p class="post_head">Round and round like a carousel</p>
+                           </div>
+                        </div>
+                        <div class="blog_post_footer">
+                           <div class="blog_post_img"> <img width="80" height="80" src="images/scr2.png" alt="#"> </div>
+                           <div class="blog_post_cont">
+                              <p class="date">July 22, 2015</p>
+                              <p class="post_head">Round and round like a carousel</p>
+                           </div>
+                        </div>
+                        <div class="blog_post_footer">
+                           <div class="blog_post_img"> <img width="80" height="80" src="images/scr3.png" alt="#"> </div>
+                           <div class="blog_post_cont">
+                              <p class="date">July 22, 2015</p>
+                              <p class="post_head">Round and round like a carousel</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>  --->
+               </div>
+            </div>
+         </div>
+         <!-- footer bottom -->
+         <div class="footer_bottom">
+            <p>Dessigned and developed by <strong>html.design</strong></p>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!--=========== js section ===========-->
+      <!-- jQuery (necessary for Bootstrap's JavaScript) -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <!-- wow animation -->
+      <script src="js/wow.js"></script>
+      <!-- custom js -->
+      <script src="js/custom.js"></script>
+      <!-- google map js -->
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+      <!-- end google map js -->
+   </body>
+</html>
